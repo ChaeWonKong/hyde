@@ -1,6 +1,6 @@
 # Dependencies
-markdown: redcarpet
-highlighter: pygments
+# markdown: redcarpet
+# highlighter: pygments
 
 # Permalinks
 permalink: pretty
@@ -9,19 +9,20 @@ permalink: pretty
 plugins:
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Setup
-title: Hyde
-tagline: "A Jekyll theme"
-description: 'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url: http://hyde.getpoole.com
+title: LeonKong
+tagline: "Chaewon Kong's Development Blog"
+description: "Chaewon Kong's Blog. JavaScript, React, NodeJS, Algorithms, Technologies and Computer Sciens"
+url: https://chaewonkong.github.io
 baseurl: /
 
 author:
-  name: "Mark Otto"
+  name: "Chaewon Kong"
   url: https://twitter.com/mdo
 
-paginate: 5
+paginate: 1
 
 # Custom vars
 version: 2.1.0
